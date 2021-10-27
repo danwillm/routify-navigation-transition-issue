@@ -15,8 +15,7 @@
 
 <div class="flex flex-row">
     <Nav />
-<!--    <BaseTransition {configs}>-->
-<!--        <slot />-->
-<!--    </BaseTransition>-->
-    <slot />
+    <BaseTransition {configs}>
+        <slot />
+    </BaseTransition>
 </div>
